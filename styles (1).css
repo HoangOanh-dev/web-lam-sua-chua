@@ -1,0 +1,41 @@
+/* body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    position: 0;
+    margin: 0 auto;
+    border: 1px;
+    padding: 0 5px;
+} */
+
+header{
+    border-radius: 5px;
+    border: 1px solid #ccc7c8;
+    background-image: url(./images/header.png);
+    padding: 0 5px;
+    margin-bottom: 2px;
+}
+
+#header-img{
+    background-color: red;
+}
+#header-img1{
+    height: 100px;
+    position:absolute;
+    transition: 10s;
+    top:-30px;
+    left: 80%;
+}
+
+#header-img2{
+    height: 70px;
+    transition: 3s;
+}
+
+#header-img3{
+    height: 80px;
+    transition: 3s;
+}
+
+nav{
+    grid-area: nav-cell;
+}
